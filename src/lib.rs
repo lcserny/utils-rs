@@ -1,6 +1,5 @@
 pub mod config;
 pub mod tests;
-pub mod error;
 
 pub fn uppercase_words(data: &str) -> String {
     let mut result = String::new();
